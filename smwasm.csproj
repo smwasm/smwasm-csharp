@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>smwasm</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>smwasm@outlook.com</Description>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <Version>0.0.2</Version>
+    <RepositoryUrl>https://github.com/smwasm/smwasm-csharp</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Wasmtime" Version="22.0.0" />
+  </ItemGroup>
+
+</Project>
